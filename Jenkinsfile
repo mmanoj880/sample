@@ -28,5 +28,11 @@ pipeline {
                 echo 'deployed the application'
             }
         }
+        stage('release') {
+            steps {
+                echo 'app release'
+            }
+        }
+        
     }
 }
